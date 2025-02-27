@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "hxKCFVNHl2Cjx0H3xL2GypnHkiNVoUpfnxru0vPTMms=",
+  "Source": "HRMedicalRecordsSystem",
+  "BasePath": "_content/HRMedicalRecordsSystem",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
