@@ -8,5 +8,6 @@
         public string? DeletedBy { get; set; }
         public int MedicalRecordId { get; set; }
 
+
     }
 }

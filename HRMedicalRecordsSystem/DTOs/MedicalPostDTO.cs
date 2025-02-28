@@ -22,8 +22,6 @@
 
         public string? MotherData { get; set; }
 
-        public string? Diagnosis { get; set; }
-
         public string? OtherFamilyData { get; set; }
 
         public string? FatherData { get; set; }
