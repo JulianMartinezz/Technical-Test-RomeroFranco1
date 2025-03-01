@@ -5,6 +5,7 @@ using HRMedicalRecordsSystem.Models;
 using HRMedicalRecordsSystem.Repositories.interfaces;
 using HRMedicalRecordsSystem.Responses;
 using HRMedicalRecordsSystem.Services.Interfaces;
+using System.ComponentModel.DataAnnotations;
 
 namespace HRMedicalRecordsSystem.Services.Implementaciones
 {
@@ -58,26 +59,116 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
 
         }
 
-        public Task<bool> DeleteMedicalRecord(MedicalDeleteDTO DeleteDTO)
+        public async Task<BaseResponse<TMedicalRecord>> DeleteMedicalRecord(MedicalDeleteDTO DeleteDTO)
         {
-            throw new NotImplementedException();
+            var ValidationResult = _validationsDelete.Validate(DeleteDTO);
+            if (!ValidationResult.IsValid) 
+            {
+                return BaseResponse<TMedicalRecord>.BadRequestResponse(ValidationResult.Errors.ToString());
+            }
+            TMedicalRecord Delete = await _repository.getMedicalRecordByID(DeleteDTO.MedicalRecordId);
+            if(Delete.Equals(null))   
+            {
+                return BaseResponse<TMedicalRecord>.NotFoundResponse();
+            }
+            if(Delete.StatusId == 2)
+            {
+                return BaseResponse<TMedicalRecord>.BadRequestResponse("You are trying to delete a deleted Record");
+            }
+            try 
+            {
+                TMedicalRecord result = await _repository.DeleteMedicalRecord(_mapper.Map(DeleteDTO, Delete));
+                return BaseResponse<TMedicalRecord>.SuccessResponse(result, 1);
+            }
+            catch(Exception ex) 
+            {
+                return BaseResponse<TMedicalRecord>.ErrorResponse(ex.Message);
+            }
+
+
         }
 
-        public Task<List<TMedicalRecord>> GetFilterMedicalRecords(TMedicalRecord Record)
+        public async Task<BaseResponse<List<TMedicalRecord>>> GetFilterMedicalRecords(MedicalGetDTO GetDTO)
         {
-            throw new NotImplementedException();
+            var validationResult = _validationsGetFilter.Validate(GetDTO);
+            if (!validationResult.IsValid) 
+            {
+                return BaseResponse<List<TMedicalRecord>>.BadRequestResponse(validationResult.Errors.ToString());
+            }
+
+            try
+            {
+                var result = await _repository.GetFilterMedicalRecords(GetDTO);
+                return BaseResponse<List<TMedicalRecord>>.SuccessResponse(result);
+
+            }
+            catch(Exception ex) 
+            {
+                return BaseResponse<List<TMedicalRecord>>.ErrorResponse(ex.Message);
+            }
+
         }
 
-        public Task<TMedicalRecord> GetMedicalRecordByID(int id)
+        public async Task<BaseResponse<TMedicalRecord>> GetMedicalRecordByID(int id)
         {
-            throw new NotImplementedException();
+            if (id.Equals(0))
+            {
+                return BaseResponse<TMedicalRecord>.BadRequestResponse("ID cant be equal to 0");
+            }
+            try
+            {
+                TMedicalRecord result = await _repository.getMedicalRecordByID(id);
+                if (result.Equals(null))
+                {
+                    return BaseResponse<TMedicalRecord>.NotFoundResponse();
+
+                }
+                return BaseResponse<TMedicalRecord>.SuccessResponse(result, 1);
+            }
+            catch(Exception ex) 
+            {
+                return BaseResponse<TMedicalRecord>.ErrorResponse(ex.Message);
+            }
         }
 
-        public Task<TMedicalRecord> UpdateMedicalRecord(TMedicalRecord Update)
+        public async Task<BaseResponse<TMedicalRecord>> UpdateMedicalRecord(MedicalUpdateDTO UpdateDTO)
         {
-            throw new NotImplementedException();
+            var validationResult = _validationsUpdate.Validate(UpdateDTO);
+            if (!validationResult.IsValid)
+            {
+                return BaseResponse<TMedicalRecord>.BadRequestResponse(validationResult.Errors.ToString());
+            }
+            TMedicalRecord result = await _repository.getMedicalRecordByID(UpdateDTO.MedicalRecordId);
+            if (result.StatusId.Equals(2))
+            {
+                return BaseResponse<TMedicalRecord>.BadRequestResponse("You tried to update a deleted Record");
+            }
+            if (result.Equals(null)) 
+            {
+                return BaseResponse<TMedicalRecord>.NotFoundResponse();
+            }
+            try 
+            {
+                TMedicalRecord update = await _repository.UpdateMedicalRecord(_mapper.Map(UpdateDTO, result));
+                return BaseResponse<TMedicalRecord>.SuccessResponse(update, 1);
+            }
+            catch(Exception ex) 
+            {
+                return BaseResponse<TMedicalRecord>.ErrorResponse(ex.Message);
+            }
+
+            
+            
+
+            
+
         }
+    }
 
         
-    }
+
+        
+    
 }
+
+

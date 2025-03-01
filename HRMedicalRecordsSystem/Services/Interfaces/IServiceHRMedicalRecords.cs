@@ -6,13 +6,13 @@ namespace HRMedicalRecordsSystem.Services.Interfaces
 {
     public interface IServiceHRMedicalRecords
     {
-        Task<TMedicalRecord> GetMedicalRecordByID(int id);
+        Task<BaseResponse<TMedicalRecord>> GetMedicalRecordByID(int id);
 
-        public Task<List<TMedicalRecord>> GetFilterMedicalRecords(TMedicalRecord Record);
+        public Task<BaseResponse<List<TMedicalRecord>>> GetFilterMedicalRecords(MedicalGetDTO RecordDTO);
 
-        public Task<bool> DeleteMedicalRecord(MedicalDeleteDTO DeleteDTO);
+        public Task<BaseResponse<TMedicalRecord>> DeleteMedicalRecord(MedicalDeleteDTO DeleteDTO);
 
-        public Task<TMedicalRecord> UpdateMedicalRecord(TMedicalRecord Update);
+        public Task<BaseResponse<TMedicalRecord>> UpdateMedicalRecord(MedicalUpdateDTO UpdateDTO);
 
         public Task<BaseResponse<TMedicalRecord>> AddMedicalRecord(MedicalPostDTO postDTO);
     }

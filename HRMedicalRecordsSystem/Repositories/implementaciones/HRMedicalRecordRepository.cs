@@ -26,16 +26,13 @@ namespace HRMedicalRecordsSystem.Repositories.implementaciones
             return record;
         }
 
-        public async Task<bool> DeleteMedicalRecord(TMedicalRecord delete)
+        public async Task<TMedicalRecord> DeleteMedicalRecord(TMedicalRecord delete)
         {
             var record = _context.TMedicalRecords.Where(x => x.StatusId == 1 && x.MedicalRecordId == delete.MedicalRecordId).FirstOrDefault();
-            if (record == null) 
-            {
-                return false;
-            }
+            
             _context.TMedicalRecords.Update(record);
-                       
-            return await _context.SaveChangesAsync() > 0;
+            await _context.SaveChangesAsync();
+            return record;
 
         }
 
@@ -62,11 +59,13 @@ namespace HRMedicalRecordsSystem.Repositories.implementaciones
             {
                 query = query.Where(record => record.MedicalRecordTypeId == getDTO.MedicalRecordTypeId.Value);
             }
+               
+            var MedicalRecordsPage = await query.Skip((getDTO.page - 1) * getDTO.pagesize)
+                .Take(getDTO.pagesize)
+                .ToListAsync();
 
-            int skip = (getDTO.page - 1) * getDTO.pagesize;
-            query = query.Skip(skip).Take(getDTO.pagesize);
-
-            return await query.ToListAsync();
+            //return await query.ToListAsync();
+            return MedicalRecordsPage;
         }
 
         public async Task<TMedicalRecord> getMedicalRecordByID(int ID)
@@ -86,5 +85,7 @@ namespace HRMedicalRecordsSystem.Repositories.implementaciones
             return UpdateRecord;
             
         }
+
+        
     }
 }

@@ -11,7 +11,7 @@ namespace HRMedicalRecordsSystem.Repositories.interfaces
 
         public Task<TMedicalRecord> AddMedicalRecord(TMedicalRecord addRecord);
 
-        public Task<bool> DeleteMedicalRecord(TMedicalRecord Delete);
+        public Task<TMedicalRecord> DeleteMedicalRecord(TMedicalRecord Delete);
 
         public Task<TMedicalRecord> UpdateMedicalRecord(TMedicalRecord Update);
 
