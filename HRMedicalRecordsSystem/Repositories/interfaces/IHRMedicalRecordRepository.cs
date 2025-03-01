@@ -9,11 +9,11 @@ namespace HRMedicalRecordsSystem.Repositories.interfaces
 
         public Task<TMedicalRecord> getMedicalRecordByID(int ID);
 
-        public Task<TMedicalRecord> AddMedicalRecord(MedicalPostDTO postDTO);
+        public Task<TMedicalRecord> AddMedicalRecord(TMedicalRecord addRecord);
 
-        public Task<bool> DeleteMedicalRecord(MedicalDeleteDTO DeleteDTO);
+        public Task<bool> DeleteMedicalRecord(TMedicalRecord Delete);
 
-        public Task<TMedicalRecord> UpdateMedicalRecord(MedicalUpdateDTO UpdateDTO);
+        public Task<TMedicalRecord> UpdateMedicalRecord(TMedicalRecord Update);
 
     }
 }

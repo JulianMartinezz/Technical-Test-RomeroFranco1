@@ -11,30 +11,29 @@ namespace HRMedicalRecordsSystem.Repositories.implementaciones
     {
 
         private readonly HRMedicalContext _context;
-        private readonly IMapper _mapper;
+        
 
-        public HRMedicalRecordRepository( HRMedicalContext context,Mapper mapper)
+        public HRMedicalRecordRepository( HRMedicalContext context)
         {
             _context = context;
-            _mapper = mapper;
+            
         }
 
-        public async Task<TMedicalRecord> AddMedicalRecord(MedicalPostDTO recordDTO)
+        public async Task<TMedicalRecord> AddMedicalRecord(TMedicalRecord record)
         {
-            var MedicalRecord = _mapper.Map<TMedicalRecord>(recordDTO);
-            await _context.AddAsync(MedicalRecord);
+            await _context.AddAsync(record);
             await _context.SaveChangesAsync();
-            return MedicalRecord;
+            return record;
         }
 
-        public async Task<bool> DeleteMedicalRecord(MedicalDeleteDTO deleteDTO)
+        public async Task<bool> DeleteMedicalRecord(TMedicalRecord delete)
         {
-            var record = _context.TMedicalRecords.Where(x => x.StatusId == 1 && x.MedicalRecordId == deleteDTO.MedicalRecordId).FirstOrDefault();
+            var record = _context.TMedicalRecords.Where(x => x.StatusId == 1 && x.MedicalRecordId == delete.MedicalRecordId).FirstOrDefault();
             if (record == null) 
             {
                 return false;
             }
-            _context.TMedicalRecords.Update(_mapper.Map(deleteDTO, record));
+            _context.TMedicalRecords.Update(record);
                        
             return await _context.SaveChangesAsync() > 0;
 
@@ -76,11 +75,9 @@ namespace HRMedicalRecordsSystem.Repositories.implementaciones
             return record;
         }
 
-        public async Task<TMedicalRecord> UpdateMedicalRecord(MedicalUpdateDTO UpdateDTO)
+        public async Task<TMedicalRecord> UpdateMedicalRecord(TMedicalRecord Update)
         {
-           var UpdateRecord = await _context.TMedicalRecords.FindAsync(UpdateDTO.MedicalRecordId);
-
-            _mapper.Map(UpdateDTO, UpdateRecord);
+           var UpdateRecord = await _context.TMedicalRecords.FindAsync(Update.MedicalRecordId);
 
             _context.TMedicalRecords.Update(UpdateRecord);
 
