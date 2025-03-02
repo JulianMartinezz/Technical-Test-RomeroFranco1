@@ -46,7 +46,9 @@ namespace HRMedicalRecordsSystem.FluentValidations
             RuleFor(x => x.Observations).MaximumLength(2000).When(value => value != null).WithMessage("Observations has a maximum of 2000 characters");
 
             RuleFor(x => x.DisabilityPercentage).InclusiveBetween(0m, 100m).When(x => x.Disability == "YES" && x.DisabilityPercentage != null).WithMessage("DisabilityPercentage must be between 0 and 100");
-
+            
+            // Validation rule for 'ModifiedBy': Ensures that 'ModifiedBy' is not null and not empty.
+            // It is a required field that must contain a value.
             RuleFor(x => x.ModifiedBy).NotNull().NotEmpty().WithMessage("ModifiedBy is a required field");
 
             RuleFor(x => x.CreatedBy).NotNull().WithMessage("CREATED_BY is a required field");

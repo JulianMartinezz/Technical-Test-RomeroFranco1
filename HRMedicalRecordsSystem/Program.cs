@@ -17,12 +17,20 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+//Configuration of DbContext
 builder.Services.AddDbContext<HRMedicalContext>(options =>
 options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+//Configuration of AutoMapper
 builder.Services.AddAutoMapper(typeof(Mapper));
 builder.Services.AddAutoMapper(Assembly.GetExecutingAssembly());
+
+//Configuration  Scopes
 builder.Services.AddScoped<IHRMedicalRecordRepository,HRMedicalRecordRepository>();
 builder.Services.AddScoped<IServiceHRMedicalRecords, ServiceHRMedicalRecords>();
+
+//Configuration FluentValidations
 builder.Services.AddFluentValidation((opt) =>
 {
     opt.RegisterValidatorsFromAssembly(Assembly.GetExecutingAssembly());

@@ -9,6 +9,10 @@ using System.ComponentModel.DataAnnotations;
 
 namespace HRMedicalRecordsSystem.Services.Implementaciones
 {
+    /// <summary>
+    /// Service class for managing HR medical records. It interacts with the repository layer and handles the business logic
+    /// for CRUD operations related to medical records.
+    /// </summary>
     public class ServiceHRMedicalRecords : IServiceHRMedicalRecords
     {
         private readonly IHRMedicalRecordRepository _repository;
@@ -23,6 +27,15 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
 
         private readonly IMapper _mapper;
 
+        /// <summary>
+        /// Initializes a new instance of the <see cref="ServiceHRMedicalRecords"/> class.
+        /// </summary>
+        /// <param name="repository">The medical record repository.</param>
+        /// <param name="validationsDelete">Validator for delete operations.</param>
+        /// <param name="validationsGetFilter">Validator for filter operations.</param>
+        /// <param name="validationsUpdate">Validator for update operations.</param>
+        /// <param name="validationsPost">Validator for post operations.</param>
+        /// <param name="mapper">The automapper instance for mapping DTOs to entities and vice versa.</param>
         public ServiceHRMedicalRecords(IHRMedicalRecordRepository repository, ValidationsDelete validationsDelete,
             ValidationsGetFilter validationsGetFilter, ValidationsUpdate ValidationsUpdate, 
             ValidationsPost ValidationPost,IMapper mapper)
@@ -37,7 +50,11 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
 
         }
 
-
+        /// <summary>
+        /// Adds a new medical record.
+        /// </summary>
+        /// <param name="postDTO">The DTO containing the data for the new medical record.</param>
+        /// <returns>A response indicating whether the operation was successful, including the created record or an error message.</returns>
         public async Task<BaseResponse<TMedicalRecord>> AddMedicalRecord(MedicalPostDTO postDTO)
         {
 
@@ -59,6 +76,11 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
 
         }
 
+        /// <summary>
+        /// Deletes an existing medical record.
+        /// </summary>
+        /// <param name="DeleteDTO">The DTO containing the ID of the medical record to delete.</param>
+        /// <returns>A response indicating whether the operation was successful or not, including the deleted record or an error message.</returns>
         public async Task<BaseResponse<TMedicalRecord>> DeleteMedicalRecord(MedicalDeleteDTO DeleteDTO)
         {
             var ValidationResult = _validationsDelete.Validate(DeleteDTO);
@@ -88,6 +110,11 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
 
         }
 
+        /// <summary>
+        /// Retrieves a list of medical records based on filtering criteria.
+        /// </summary>
+        /// <param name="GetDTO">The DTO containing the filter criteria for retrieving records.</param>
+        /// <returns>A response containing a list of filtered medical records or an error message.</returns>
         public async Task<BaseResponse<List<TMedicalRecord>>> GetFilterMedicalRecords(MedicalGetDTO GetDTO)
         {
             var validationResult = _validationsGetFilter.Validate(GetDTO);
@@ -110,6 +137,11 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
 
         }
 
+        /// <summary>
+        /// Retrieves a medical record by its ID.
+        /// </summary>
+        /// <param name="id">The ID of the medical record to retrieve.</param>
+        /// <returns>A response containing the medical record if found, or an error message if not found.</returns>
         public async Task<BaseResponse<TMedicalRecord>> GetMedicalRecordByID(int id)
         {
             if (id.Equals(0))
@@ -131,6 +163,12 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
                 return BaseResponse<TMedicalRecord>.ErrorResponse(ex.Message);
             }
         }
+
+        /// <summary>
+        /// Updates an existing medical record.
+        /// </summary>
+        /// <param name="UpdateDTO">The DTO containing the updated data for the medical record.</param>
+        /// <returns>A response indicating whether the operation was successful, including the updated record or an error message.</returns>
 
         public async Task<BaseResponse<TMedicalRecord>> UpdateMedicalRecord(MedicalUpdateDTO UpdateDTO)
         {
