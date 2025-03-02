@@ -99,7 +99,8 @@ namespace HRMedicalRecordsSystem.Services.Implementaciones
             try
             {
                 var result = await _repository.GetFilterMedicalRecords(GetDTO);
-                return BaseResponse<List<TMedicalRecord>>.SuccessResponse(result);
+                int totalRows = result.Count();
+                return BaseResponse<List<TMedicalRecord>>.SuccessResponse(result,totalRows);
 
             }
             catch(Exception ex) 

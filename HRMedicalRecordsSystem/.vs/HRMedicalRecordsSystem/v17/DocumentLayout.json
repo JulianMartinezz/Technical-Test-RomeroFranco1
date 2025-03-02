@@ -3,8 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\context\\hrmedicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:context\\hrmedicalcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\services\\implementaciones\\servicehrmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:services\\implementaciones\\servicehrmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\fluentvalidations\\validationspost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:fluentvalidations\\validationspost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\models\\tmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:models\\tmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\services\\interfaces\\iservicehrmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:services\\interfaces\\iservicehrmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\repositories\\implementaciones\\hrmedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -13,14 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\repositories\\interfaces\\ihrmedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:repositories\\interfaces\\ihrmedicalrecordrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:controllers\\medicalrecordcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\models\\tmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:models\\tmedicalrecord.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\fluentvalidations\\validationsdelete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -35,20 +51,8 @@
       "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:fluentvalidations\\validationsgetfilter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\services\\interfaces\\iservicehrmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:services\\interfaces\\iservicehrmedicalrecords.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:automapper\\mapper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\fluentvalidations\\validationspost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|solutionrelative:fluentvalidations\\validationspost.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{43EBCE30-6880-420B-B49D-9196B4FD2F13}|HRMedicalRecordsSystem.csproj|c:\\users\\franc\\desktop\\empleo\\prueba tecnica medical records\\technical-test-romerofranco1\\hrmedicalrecordssystem\\fluentvalidations\\validationsupdate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -93,7 +97,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 353,
-          "SelectedChildIndex": 9,
+          "SelectedChildIndex": 13,
           "Children": [
             {
               "$type": "Bookmark",
@@ -121,72 +125,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Mapper.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\AutoMapper\\Mapper.cs",
-              "RelativeDocumentMoniker": "AutoMapper\\Mapper.cs",
-              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\AutoMapper\\Mapper.cs",
-              "RelativeToolTip": "AutoMapper\\Mapper.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:23:39.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "BaseResponse.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Responses\\BaseResponse.cs",
-              "RelativeDocumentMoniker": "Responses\\BaseResponse.cs",
-              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Responses\\BaseResponse.cs",
-              "RelativeToolTip": "Responses\\BaseResponse.cs",
-              "ViewState": "AQIAAFQAAAAAAAAAAAAjwGMAAABOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:39:49.165Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "IHRMedicalRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Repositories\\interfaces\\IHRMedicalRecordRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\interfaces\\IHRMedicalRecordRepository.cs",
               "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Repositories\\interfaces\\IHRMedicalRecordRepository.cs",
               "RelativeToolTip": "Repositories\\interfaces\\IHRMedicalRecordRepository.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABWAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAABPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T21:54:07.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T21:54:07.601Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "ServiceHRMedicalRecords.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Services\\Implementaciones\\ServiceHRMedicalRecords.cs",
               "RelativeDocumentMoniker": "Services\\Implementaciones\\ServiceHRMedicalRecords.cs",
               "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Services\\Implementaciones\\ServiceHRMedicalRecords.cs",
               "RelativeToolTip": "Services\\Implementaciones\\ServiceHRMedicalRecords.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAA1wCsAAABGAAAA",
+              "ViewState": "AQIAAEQAAAAAAAAAAADwv14AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-28T19:11:14.417Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 7,
               "Title": "HRMedicalRecordRepository.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Repositories\\implementaciones\\HRMedicalRecordRepository.cs",
               "RelativeDocumentMoniker": "Repositories\\implementaciones\\HRMedicalRecordRepository.cs",
               "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Repositories\\implementaciones\\HRMedicalRecordRepository.cs",
               "RelativeToolTip": "Repositories\\implementaciones\\HRMedicalRecordRepository.cs",
-              "ViewState": "AQIAAB0AAAAAAAAAAAAwwDQAAAAoAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAswCsAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:16:46.369Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T20:16:46.369Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 5,
               "Title": "IServiceHRMedicalRecords.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Services\\Interfaces\\IServiceHRMedicalRecords.cs",
               "RelativeDocumentMoniker": "Services\\Interfaces\\IServiceHRMedicalRecords.cs",
@@ -194,8 +170,7 @@
               "RelativeToolTip": "Services\\Interfaces\\IServiceHRMedicalRecords.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T18:59:07.068Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T18:59:07.068Z"
             },
             {
               "$type": "Document",
@@ -205,22 +180,46 @@
               "RelativeDocumentMoniker": "Models\\TMedicalRecord.cs",
               "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Models\\TMedicalRecord.cs",
               "RelativeToolTip": "Models\\TMedicalRecord.cs",
-              "ViewState": "AQIAACoAAAAAAAAAAAAgwBEAAAAaAAAA",
+              "ViewState": "AQIAAAcAAAAAAAAAAAA1wEEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:33:08.776Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:33:08.776Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "MedicalRecordController.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Controllers\\MedicalRecordController.cs",
               "RelativeDocumentMoniker": "Controllers\\MedicalRecordController.cs",
               "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Controllers\\MedicalRecordController.cs",
               "RelativeToolTip": "Controllers\\MedicalRecordController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAABIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T19:18:09.207Z",
+              "WhenOpened": "2025-03-01T19:18:09.207Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAACEAAAAAAAAAAAAiwDQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-27T21:08:09.971Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HRMedicalContext.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Context\\HRMedicalContext.cs",
+              "RelativeDocumentMoniker": "Context\\HRMedicalContext.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Context\\HRMedicalContext.cs",
+              "RelativeToolTip": "Context\\HRMedicalContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-02T17:28:33.118Z",
               "EditorCaption": ""
             },
             {
@@ -229,7 +228,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
+              "Title": "ValidationsPost.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsPost.cs",
+              "RelativeDocumentMoniker": "FluentValidations\\ValidationsPost.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsPost.cs",
+              "RelativeToolTip": "FluentValidations\\ValidationsPost.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T00:41:10.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Responses\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Responses\\BaseResponse.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Responses\\BaseResponse.cs",
+              "RelativeToolTip": "Responses\\BaseResponse.cs",
+              "ViewState": "AQIAAFQAAAAAAAAAAAAjwGMAAABOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T18:39:49.165Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Mapper.cs",
+              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\AutoMapper\\Mapper.cs",
+              "RelativeDocumentMoniker": "AutoMapper\\Mapper.cs",
+              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\AutoMapper\\Mapper.cs",
+              "RelativeToolTip": "AutoMapper\\Mapper.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-28T20:23:39.168Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "ValidationsDelete.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsDelete.cs",
               "RelativeDocumentMoniker": "FluentValidations\\ValidationsDelete.cs",
@@ -237,12 +272,11 @@
               "RelativeToolTip": "FluentValidations\\ValidationsDelete.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:14:10.87Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:14:10.87Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ValidationsUpdate.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsUpdate.cs",
               "RelativeDocumentMoniker": "FluentValidations\\ValidationsUpdate.cs",
@@ -250,25 +284,11 @@
               "RelativeToolTip": "FluentValidations\\ValidationsUpdate.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T17:00:37.602Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T17:00:37.602Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:08:09.971Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "ValidationsGetFilter.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsGetFilter.cs",
               "RelativeDocumentMoniker": "FluentValidations\\ValidationsGetFilter.cs",
@@ -276,25 +296,11 @@
               "RelativeToolTip": "FluentValidations\\ValidationsGetFilter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:58:10.911Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:58:10.911Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ValidationsPost.cs",
-              "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsPost.cs",
-              "RelativeDocumentMoniker": "FluentValidations\\ValidationsPost.cs",
-              "ToolTip": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\FluentValidations\\ValidationsPost.cs",
-              "RelativeToolTip": "FluentValidations\\ValidationsPost.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAABEAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T00:41:10.171Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "MedicalGetDTO.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\DTOs\\MedicalGetDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\MedicalGetDTO.cs",
@@ -302,12 +308,11 @@
               "RelativeToolTip": "DTOs\\MedicalGetDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA1AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:32:45.384Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:32:45.384Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\appsettings.json",
               "RelativeDocumentMoniker": "appsettings.json",
@@ -315,12 +320,11 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-03-01T20:38:51.833Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T20:38:51.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "MedicalUpdateDTO.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\DTOs\\MedicalUpdateDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\MedicalUpdateDTO.cs",
@@ -328,12 +332,11 @@
               "RelativeToolTip": "DTOs\\MedicalUpdateDTO.cs",
               "ViewState": "AQIAABcAAAAAAAAAAAA8wDMAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:36:12.522Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:36:12.522Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "MedicalDeleteDTO.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\DTOs\\MedicalDeleteDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\MedicalDeleteDTO.cs",
@@ -341,12 +344,11 @@
               "RelativeToolTip": "DTOs\\MedicalDeleteDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:32:32.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:32:32.856Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "MedicalRecordType.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Models\\MedicalRecordType.cs",
               "RelativeDocumentMoniker": "Models\\MedicalRecordType.cs",
@@ -354,12 +356,11 @@
               "RelativeToolTip": "Models\\MedicalRecordType.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T21:08:13.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T21:08:13.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Status.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\Models\\Status.cs",
               "RelativeDocumentMoniker": "Models\\Status.cs",
@@ -367,12 +368,11 @@
               "RelativeToolTip": "Models\\Status.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-28T20:19:25.399Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-28T20:19:25.399Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MedicalPostDTO.cs",
               "DocumentMoniker": "C:\\Users\\franc\\Desktop\\Empleo\\Prueba Tecnica Medical Records\\Technical-Test-RomeroFranco1\\HRMedicalRecordsSystem\\DTOs\\MedicalPostDTO.cs",
               "RelativeDocumentMoniker": "DTOs\\MedicalPostDTO.cs",
@@ -380,12 +380,11 @@
               "RelativeToolTip": "DTOs\\MedicalPostDTO.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAADAAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-27T23:45:38.566Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-02-27T23:45:38.566Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\franc\\AppData\\Local\\Temp\\e9f4950f-2168-41bb-8cdc-9ccd689666cb_ParcialSln completo.zip.6cb\\ParcialSln\\WebApi\\Program.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\AppData\\Local\\Temp\\e9f4950f-2168-41bb-8cdc-9ccd689666cb_ParcialSln completo.zip.6cb\\ParcialSln\\WebApi\\Program.cs",
