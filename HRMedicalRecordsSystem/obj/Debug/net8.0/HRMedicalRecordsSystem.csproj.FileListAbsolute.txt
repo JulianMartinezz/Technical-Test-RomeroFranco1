@@ -133,3 +133,7 @@ C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-Rome
 C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\obj\Debug\net8.0\HRMedicalRecordsSystem.pdb
 C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\obj\Debug\net8.0\HRMedicalRecordsSystem.genruntimeconfig.cache
 C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\obj\Debug\net8.0\ref\HRMedicalRecordsSystem.dll
+C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\franc\Desktop\Empleo\Prueba Tecnica Medical Records\Technical-Test-RomeroFranco1\HRMedicalRecordsSystem\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

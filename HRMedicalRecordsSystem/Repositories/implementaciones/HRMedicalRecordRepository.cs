@@ -64,14 +64,14 @@ namespace HRMedicalRecordsSystem.Repositories.implementaciones
                 .Take(getDTO.pagesize)
                 .ToListAsync();
 
-            //return await query.ToListAsync();
-            return MedicalRecordsPage;
+            return await query.ToListAsync();
+           
         }
 
         public async Task<TMedicalRecord> getMedicalRecordByID(int ID)
         {
-            TMedicalRecord record = await _context.TMedicalRecords.FindAsync(ID);
-            return record;
+            
+            return await _context.TMedicalRecords.FindAsync(ID);
         }
 
         public async Task<TMedicalRecord> UpdateMedicalRecord(TMedicalRecord Update)
