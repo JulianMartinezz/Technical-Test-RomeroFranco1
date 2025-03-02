@@ -5,26 +5,55 @@ using Microsoft.EntityFrameworkCore;
 
 namespace HRMedicalRecordsSystem.Context;
 
+/// <summary>
+/// Represents the context for the HR Medical Records system, inheriting from DbContext.
+/// Defines the database sets (tables) and the model-building configuration for entity relationships.
+/// </summary>
 public partial class HRMedicalContext : DbContext
 {
+    /// <summary>
+    /// Default constructor for HRMedicalContext.
+    /// </summary>
     public HRMedicalContext()
     {
     }
 
+    /// <summary>
+    /// Constructor that accepts options for configuring the context.
+    /// </summary>
+    /// <param name="options">The options to configure the context.</param>
     public HRMedicalContext(DbContextOptions<HRMedicalContext> options)
         : base(options)
     {
     }
 
+    /// <summary>
+    /// Gets or sets the DbSet for MedicalRecordTypes.
+    /// Represents the 'medical_record_type' table in the database.
+    /// </summary>
     public virtual DbSet<MedicalRecordType> MedicalRecordTypes { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for Statuses.
+    /// Represents the 'status' table in the database.
+    /// </summary>
     public virtual DbSet<Status> Statuses { get; set; }
 
+    /// <summary>
+    /// Gets or sets the DbSet for TMedicalRecords.
+    /// Represents the 't_medical_record' table in the database.
+    /// </summary>
     public virtual DbSet<TMedicalRecord> TMedicalRecords { get; set; }
 
-    
+
+    /// <summary>
+    /// Configures the model for the entity framework context, including the table mappings,
+    /// relationships, and constraints.
+    /// </summary>
+    /// <param name="modelBuilder">The ModelBuilder used to configure entity types.</param>
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        // Configuration for the MedicalRecordType entity
         modelBuilder.Entity<MedicalRecordType>(entity =>
         {
             entity.HasKey(e => e.MedicalRecordTypeId).HasName("medical_record_type_pkey");
@@ -40,6 +69,7 @@ public partial class HRMedicalContext : DbContext
                 .HasColumnName("name");
         });
 
+        // Configuration for the Status entity
         modelBuilder.Entity<Status>(entity =>
         {
             entity.HasKey(e => e.StatusId).HasName("status_pkey");
@@ -55,6 +85,7 @@ public partial class HRMedicalContext : DbContext
                 .HasColumnName("name");
         });
 
+        // Configuration for the TMedicalRecord entity
         modelBuilder.Entity<TMedicalRecord>(entity =>
         {
             entity.HasKey(e => e.MedicalRecordId).HasName("t_medical_record_pkey");
